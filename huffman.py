@@ -1,4 +1,3 @@
-# A Huffman Tree Node
 import heapq
  
  
@@ -45,10 +44,18 @@ def printNodes(node, val=''):
  
  
 # characters for huffman tree
-chars = ['a', 'b', 'c', 'd', 'e', 'f']
+#chars = ['a', 'b', 'c', 'd', 'e', 'f']
+chars=[]
+for x in range(6):
+    k=input("enter   value\n")
+    chars.append(k)
  
 # frequency of characters
-freq = [5, 9, 12, 13, 16, 45]
+#freq = [5, 9, 12, 13, 16, 45]
+freq=[]
+for y in range(6):
+    z=int(input("enter frequency\n"))
+    freq.append(z)
  
 # list containing unused nodes
 nodes = []

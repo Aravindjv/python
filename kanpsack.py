@@ -32,3 +32,10 @@ print("maximun profit: ",max_profit)
 print("selected coffee beans (index): ",selected_items)
 print("selected coffee beans (weights): ",[weights[i]for i in selected_items])
 print("selected coffee beans (costs): ",[costs[i]for i in selected_items])
+#Enter the weights of the items: 2 3 4 5
+#Enter the costs of the items: 10 20 30 40 
+#Enter the capacity of the knapsack: 10
+#maximun profit:  70
+#selected coffee beans (index):  [3, 1, 0]
+#selected coffee beans (weights):  [5, 3, 2]
+#selected coffee beans (costs):  [40, 20, 10]#

@@ -38,4 +38,4 @@ print("selected coffee beans (costs): ",[costs[i]for i in selected_items])
 #maximun profit:  70
 #selected coffee beans (index):  [3, 1, 0]
 #selected coffee beans (weights):  [5, 3, 2]
-#selected coffee beans (costs):  [40, 20, 10]#
+#selected coffee beans (costs):  [40, 20, 10]
